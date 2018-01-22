@@ -1,9 +1,43 @@
 html {
   background-color: #495562;
-  color: white;
-  font-family: 'Georgia', serif;
+  color: #fff;
+  font-family: Georgia, serif;
 }
 
 .btn-ghost {
-  color: white;
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .cruise {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .masthead {
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+  }
+
+  .banner-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient( rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
+  }
+
+  .banner-img {
+    max-height: 500px;
+  }
+
+  .banner-header {
+    margin-bottom: 0;
+  }
+
 }
