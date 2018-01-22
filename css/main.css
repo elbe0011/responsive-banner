@@ -6,6 +6,12 @@ html {
 
 .btn-ghost {
   color: #fff;
+  border-color: #efefef;
+}
+
+.btn-ghost:hover {
+  color: #97a49b;
+  border-color: #97a49b;
 }
 
 @media only screen and (min-width: 38em) {
@@ -29,7 +35,7 @@ html {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: linear-gradient( rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
+    background-image: linear-gradient(rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
   }
 
   .banner-img {
